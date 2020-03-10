@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<html lang="" xml:lang="">
   <head>
     <title>Funktionen</title>
     <meta charset="utf-8" />
@@ -12,8 +12,8 @@
 class: center, middle, inverse, title-slide
 
 # Funktionen
-### Einführung in die moderne Datenanalyse mit R<br> <a href='https://therbootcamp.github.io'> Basel R Bootcamp </a> <br> <a href='https://therbootcamp.github.io/I2R_2020Feb/'> <i class='fas fa-clock' style='font-size:.9em;'></i> </a>  <a href='https://therbootcamp.github.io'> <i class='fas fa-home' style='font-size:.9em;' ></i> </a>  <a href='mailto:therbootcamp@gmail.com'> <i class='fas fa-envelope' style='font-size: .9em;'></i> </a>  <a href='https://www.linkedin.com/company/basel-r-bootcamp/'> <i class='fab fa-linkedin' style='font-size: .9em;'></i> </a>
-### Februar 2020
+### Einführung in die moderne Datenanalyse mit R<br> <a href='https://therbootcamp.github.io'> Basel R Bootcamp </a> <br> <a href='https://therbootcamp.github.io/I2R_2020Mar/'> <i class='fas fa-clock' style='font-size:.9em;'></i> </a>  <a href='https://therbootcamp.github.io'> <i class='fas fa-home' style='font-size:.9em;' ></i> </a>  <a href='mailto:therbootcamp@gmail.com'> <i class='fas fa-envelope' style='font-size: .9em;'></i> </a>  <a href='https://www.linkedin.com/company/basel-r-bootcamp/'> <i class='fab fa-linkedin' style='font-size: .9em;'></i> </a>
+### März 2020
 
 ---
 
@@ -34,7 +34,7 @@ layout: true
     &lt;/a&gt;
     &lt;a href="https://therbootcamp.github.io/"&gt;
       &lt;font color="#7E7E7E"&gt;
-      Einführung in die moderne Datenanalyse mit R | Februar 2020
+      Einführung in die moderne Datenanalyse mit R | März 2020
       &lt;/font&gt;
     &lt;/a&gt;
     &lt;/span&gt;
@@ -205,6 +205,49 @@ mean(c(1, 2, 3, NA))
 ```
 ## [1] NA
 ```
+]
+
+
+---
+
+# Argumente 
+
+.pull-left4[
+&lt;ul&gt;
+  &lt;li class="m1g"&gt;&lt;span&gt;R(Studio)&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m2g"&gt;&lt;span&gt;Assignments&lt;br&gt;&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m3"&gt;&lt;span&gt;Funktionen&lt;/span&gt;&lt;/li&gt;
+  &lt;ul class="level"&gt;
+    &lt;li&gt;&lt;span&gt;Alles geschieht durch eine Funktion&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;&lt;high&gt;Funktionen haben (Default) Argumente&lt;/high&gt;&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;Die Klasse der Argumente ist wichtig&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;Funktionen "leben" in Paketen&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;Erhalte Hilfe mit &lt;mono&gt;?&lt;/span&gt;&lt;/li&gt;
+  &lt;/ul&gt;&lt;br&gt;
+  &lt;li class="m4g"&gt;&lt;span&gt;Data I/O&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m5g"&gt;&lt;span&gt;Analyse&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+]
+
+.pull-right5[
+
+```r
+# Kein Argument
+mean()
+```
+
+```
+## Error in mean.default(): argument "x" is missing, with no default
+```
+
+```r
+# Ein (notwendiges) Argument
+mean(c(1, 2, 3))
+```
+
+```
+## [1] 2
+```
 
 ```r
 # Ändere den Default zur Entfernung des NAs
@@ -215,6 +258,8 @@ mean(c(1, 2, 3, NA), na.rm = TRUE)
 ## [1] 2
 ```
 ]
+
+
 
 ---
 
@@ -408,7 +453,24 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     }
     deleted = true;
   });
-})();</script>
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
 
 <script>
 (function() {

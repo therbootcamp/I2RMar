@@ -5,7 +5,7 @@ author: "Einführung in die moderne Datenanalyse mit R<br>
     Basel R Bootcamp
   </a>
   <br>
-  <a href='https://therbootcamp.github.io/I2R_2020Feb/'>
+  <a href='https://therbootcamp.github.io/I2R_2020Mar/'>
     <i class='fas fa-clock' style='font-size:.9em;'></i>
   </a>&#8239; 
   <a href='https://therbootcamp.github.io'>
@@ -17,7 +17,7 @@ author: "Einführung in die moderne Datenanalyse mit R<br>
   <a href='https://www.linkedin.com/company/basel-r-bootcamp/'>
     <i class='fab fa-linkedin' style='font-size: .9em;'></i>
   </a>"
-date: "Februar 2020"
+date: "März 2020"
 output:
   xaringan::moon_reader:
     css: ["default", "baselrbootcamp.css"]
@@ -45,7 +45,7 @@ layout: true
     </a>
     <a href="https://therbootcamp.github.io/">
       <font color="#7E7E7E">
-      Einführung in die moderne Datenanalyse mit R | Februar 2020
+      Einführung in die moderne Datenanalyse mit R | März 2020
       </font>
     </a>
     </span>
@@ -279,36 +279,6 @@ daten
 ]
 
 .pull-right5[
-<p align = "center">
-<img src="image/main_objects.png"><br>
-</p>
-
-]
-
-
----
-
-# Daten leben in <mono>data.frames</mono>
-
-.pull-left4[
-
-<ul>
-  <li class="m1g"><span>R(Studio)</span></li>
-  <li class="m2g"><span>Assignments<br></span></li>
-  <li class="m3g"><span>Funktionen</span></li>
-  <li class="m4"><span>Data I/O</a></span></li>
-  <ul class="level">
-    <li><span>Daten von Festplatte lesen</span></li>
-    <li><span><high>Daten leben in <mono>data.frames</span></high></li>
-    <li><span>3 + 1 Datentypen</span></li>
-    <li><span>Daten auf die Festplatte schreiben</span></li>
-  </ul><br>
-  <li class="m5g"><span>Analyse</span></li>
-</ul>
-
-]
-
-.pull-right5[
 
 ```{r, echo = F}
 options(max.print=20,width=40)
@@ -321,11 +291,9 @@ daten <- read.csv('1_Data/Tourismus.csv')
 # Klasse der Daten
 class(daten)
 
-# Dimensionen der Daten
-dim(daten)
+dim(daten) # Dimensionen
 
-# Namen der Variablen in den Daten
-names(daten)
+names(daten) # Variablennamen
 
 ```
 ]
@@ -356,7 +324,7 @@ names(daten)
 .pull-right5[
 
 <p align = "center">
-<img src="image/vector_types.png"><br>
+<img src="image/types.png"><br>
 </p>
 
 ]

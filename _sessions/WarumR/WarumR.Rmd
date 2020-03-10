@@ -5,7 +5,7 @@ author: "Einführung in die moderne Datenanalyse mit R<br>
     Basel R Bootcamp
   </a>
   <br>
-  <a href='https://therbootcamp.github.io/I2R_2020Feb/'>
+  <a href='https://therbootcamp.github.io/I2R_2020Mar/'>
     <i class='fas fa-clock' style='font-size:.9em;'></i>
   </a>&#8239; 
   <a href='https://therbootcamp.github.io'>
@@ -17,7 +17,7 @@ author: "Einführung in die moderne Datenanalyse mit R<br>
   <a href='https://www.linkedin.com/company/basel-r-bootcamp/'>
     <i class='fab fa-linkedin' style='font-size: .9em;'></i>
   </a>"
-date: "Februar 2020"
+date: "März 2020"
 output:
   xaringan::moon_reader:
     css: ["default", "baselrbootcamp.css"]
@@ -45,7 +45,7 @@ layout: true
     </a>
     <a href="https://therbootcamp.github.io/">
       <font color="#7E7E7E">
-      Einführung in die moderne Datenanalyse mit R | Februar 2020
+      Einführung in die moderne Datenanalyse mit R | März 2020
       </font>
     </a>
     </span>
@@ -469,4 +469,4 @@ Financial times, July 2018
 ---
 class: middle, center
 
-<h1><a href=https://therbootcamp.github.io/I2R_2019Nov/index.html>Schedule</a></h1>
+<h1><a href=https://therbootcamp.github.io/I2R_2020Mar/index.html>Schedule</a></h1>

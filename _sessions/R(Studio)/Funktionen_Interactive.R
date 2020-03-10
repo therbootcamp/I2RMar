@@ -1,6 +1,6 @@
 ### R Skript zu "Funktionen"
 ### Kurs "Einführung in die moderne Datenanalyse mit R"
-### Datum: November 2019
+### Datum: März 2020
 ### Autor: The R Bootcamp
 
 
