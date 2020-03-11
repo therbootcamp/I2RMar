@@ -159,7 +159,7 @@ eins_zwei_drei + 100
 eins_zwei_drei
 
 # Funktion mean()
-mean(x = eins_zwei_drei)
+mean(eins_zwei_drei)
 
 ```
 ]
