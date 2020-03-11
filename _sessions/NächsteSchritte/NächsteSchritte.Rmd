@@ -451,7 +451,7 @@ library(xml2) ; library(rvest) ; library(tibble)
 ```{r, message=F}
 # Tabelle laden von Wikipedia (Pakete nicht vergessen)
 read_html("https://en.wikipedia.org/wiki/R_(programming_language)") %>%
-  html_node(xpath = '//*[@id="mw-content-text"]/div/table[2]') %>%
+  html_node(xpath = '//*[@id="mw-content-text"]/div/table[3]') %>%
   html_table() %>% as_tibble()
 ```
 
