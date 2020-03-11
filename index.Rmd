@@ -48,7 +48,7 @@ output:
 |:--|:----------------------|
 |0| [Willkommen!](_sessions/Willkommen/Willkommen.html) | 
 |1| [Warum R](_sessions/WarumR/WarumR.html)|
-|2| [R(Studio)](_sessions/R(Studio)/R_Studio_.html) |
+|2| [R(Studio)](_sessions/R(Studio)/R_Studio-.html) |
 |3| [Assignments](_sessions/Assignments/Assignments.html) |
 |4| [Funktionen](_sessions/Funktionen/Funktionen.html) |
 |5| [Daten I/O](_sessions/DataIO/DataIO.html) |
