@@ -417,7 +417,7 @@ Financial times, July 2018
   <li class="m3"><span><high>Erweiterbarkeit</high> (<a href="https://cran.r-project.org/">CRAN</a>)</span></li>
   <li class="m4"><span><a href="https://www.tidyverse.org/"><high>Tidyverse</high></a></span></li>
   <li class="m5"><span><a href="https://www.rstudio.com/"><high>RStudio</high></a></span></li>
-  <li class="m6"><span><high>Productivitätsoptionen</high>: <a href="(https://www.latex-project.org/">Latex</a>), <a href="https://daringfireball.net/projects/markdown/">Markdown</a>, <a href="https://github.com/">GitHub</a></span></li>
+  <li class="m6"><span><high>Produktivitätsoptionen</high>: <a href="(https://www.latex-project.org/">Latex</a>), <a href="https://daringfireball.net/projects/markdown/">Markdown</a>, <a href="https://github.com/">GitHub</a></span></li>
 </ul>
 ]
 
