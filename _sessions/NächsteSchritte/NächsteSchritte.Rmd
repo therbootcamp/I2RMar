@@ -5,7 +5,7 @@ author: "Einführung in die moderne Datenanalyse mit R<br>
     Basel R Bootcamp
   </a>
   <br>
-  <a href='https://therbootcamp.github.io/I2R_2020Feb/'>
+  <a href='https://therbootcamp.github.io/I2R_2020Mar/'>
     <i class='fas fa-clock' style='font-size:.9em;'></i>
   </a>&#8239; 
   <a href='https://therbootcamp.github.io'>
@@ -17,7 +17,7 @@ author: "Einführung in die moderne Datenanalyse mit R<br>
   <a href='https://www.linkedin.com/company/basel-r-bootcamp/'>
     <i class='fab fa-linkedin' style='font-size: .9em;'></i>
   </a>"
-date: "Februar 2020"
+date: "März 2020"
 output:
   xaringan::moon_reader:
     css: ["default", "baselrbootcamp.css"]
@@ -45,7 +45,7 @@ layout: true
     </a>
     <a href="https://therbootcamp.github.io/">
       <font color="#7E7E7E">
-      Einführung in die moderne Datenanalyse mit R | Februar 2020
+      Einführung in die moderne Datenanalyse mit R | März 2020
       </font>
     </a>
     </span>
@@ -689,7 +689,7 @@ Hier ist eine unvollständige Liste guter Bücher über R lose geordnet nach vor
   </td>
 
   <td> 
-  <a href="http://r4ds.had.co.nz/"><img border="0" alt="W3Schools" src="http://r4ds.had.co.nz/cover.png" height="180"></a>
+  <a href="https://ggplot2-book.org/"><img border="0" alt="W3Schools" src="https://images-na.ssl-images-amazon.com/images/I/31uoy-qmhEL._SX331_BO1,204,203,200_.jpg" height="180"></a>
   </td>
 
   <td>
@@ -840,7 +840,7 @@ Das Netz ist vll. der beste Ort für Informationen über R.
       <font style="font-size:20px;weight:700"><br>Explorative Datenanalyse mit R</font><br>
       <br>
       <img src="https://therbootcamp.github.io/img/courses/1.png" height="230px" style="border-radius:50%;border:10px solid #E9ECEF"></img><br><br>
-      <high>Februar 14/15, 2020</high><br><br><br>
+      <high>August 4/5, 2020</high><br><br><br>
     </p>
   </td>
   <td>
